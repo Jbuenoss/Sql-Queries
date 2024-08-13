@@ -1,4 +1,4 @@
---select selciona a coluna, * = todas
+--SELECT e WHERE
 SELECT FirstName, LastName
 FROM Person.Person;
 
