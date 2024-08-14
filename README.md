@@ -7,10 +7,18 @@ Este repositório contém uma coleção de consultas SQL desenvolvidas para dife
 
 ### AdventureWorks2017
 
-SQLQuerie1, SQLQuerie2, SQLQuerie3, SQLQuerie4, SQLQuerie6 foram desenvolvidas utilizando o banco de dados AdventureWorks2017, a qual você pode baixar no seguinte link: [AdventureWorks2017](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+**SQLQuerie1**, **SQLQuerie2**, **SQLQuerie3**, **SQLQuerie4**, **SQLQuerie6** foram desenvolvidas utilizando o banco de dados AdventureWorks2017, a qual você pode baixar no seguinte link: [AdventureWorks2017](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
 ### Northwind
 
-Já a consulta SQLQuerie5 foi desenvolvida utilizando o banco de dados Northwind.
+Já a consulta **SQLQuerie5** foi desenvolvida utilizando o banco de dados Northwind.
 
 Você pode obter o script de criação do banco de dados Northwind através do seguinte link: [Northwind](https://raw.githubusercontent.com/Microsoft/sql-server-samples/master/samples/databases/northwind-pubs/instnwnd.sql)
+
+### Outros
+
+**SQLQuerie7** foi desenvolvida para criar um banco de dados que representa uma relação One-to-many
+
+## Referência de Estudo
+
+A Ordem de conteúdo SQL deste repositório foram desenvolvidas seguindo o do curso de SQL Server Completo do canal do YouTube Dev Aprender.
