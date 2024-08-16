@@ -28,3 +28,12 @@ FROM Production.Product
 --Outras funções
 SELECT UnitPrice, ROUND(UnitPrice,2)
 FROM Sales.SalesOrderDetail;
+
+--View
+CREATE VIEW [Pessoas Simplificadas] AS
+SELECT PersonType, CONCAT(FirstName, ' ', ISNULL(MiddleName, ''), ' ', LastName) AS NomeCompleto
+FROM Person.Person
+WHERE Title = 'Mr.';
+
+SELECT *
+FROM [Pessoas Simplificadas];

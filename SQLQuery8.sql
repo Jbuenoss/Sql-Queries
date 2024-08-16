@@ -34,3 +34,16 @@ EXEC sp_rename 'Canal.Nome', 'NomeCanal', 'COLUMN';
 TRUNCATE TABLE Canal;
 
 SELECT * FROM Canal;
+
+--Check
+CREATE TABLE Video(
+	Id INT IDENTITY(1,1) PRIMARY KEY,
+	Titulo VARCHAR(150) not null CHECK(LEN(Titulo) > 3),
+	Duracao INT not null CHECK(Duracao > 0)
+);
+--Verificando erro
+INSERT INTO Video (Titulo, Duracao)
+VALUES	('oiis', 1);
+
+
+SELECT * FROM Video;
