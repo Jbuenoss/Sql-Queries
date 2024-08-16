@@ -19,6 +19,26 @@ Você pode obter o script de criação do banco de dados Northwind através do s
 
 **SQLQuerie7** foi desenvolvida para criar um banco de dados que representa uma relação One-to-many
 
+Em **SQLQuerie8** criei um banco de dados youtube para testar novos conceitos aprendidos.
+
 ## Referência de Estudo
 
-A Ordem de conteúdo SQL deste repositório foram desenvolvidas seguindo o do curso de SQL Server Completo do canal do YouTube Dev Aprender.
+A Ordem de conteúdo SQL deste repositório foram desenvolvidas tendo como base o do curso de SQL Server Completo do canal do YouTube Dev Aprender.
+
+## Assuntos por Querie
+
+**SQLQuerie1**: SELECT e WHERE
+
+**SQLQuerie2**: Count, Distinct, TOP, Order by, Between, In e Like
+
+**SQLQuerie3**: Funções de agregação, Group By, Having e As
+
+**SQLQuerie4**: Tipos de join e Union
+
+**SQLQuerie5**: Self Join
+
+**SQLQuerie6**: SubQuery, Datepart, String e View
+
+**SQLQuerie7**: criando um banco de dados que representa uma relação One-to-many, Insert into, Update, Delete, Drop
+
+**SQLQuerie8**: Alter table, renomear coluna, Truncate e Check
